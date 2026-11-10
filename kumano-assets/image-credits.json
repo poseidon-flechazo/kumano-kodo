@@ -1,0 +1,32 @@
+[
+  {
+    "file": "kumano-assets/oyunohara.jpg",
+    "title": "大斎原鸟居",
+    "author": "Yanajin33",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kumano-hong%C3%BB-taisha_Shrine_-_Torii_at_%C3%94yunohara.jpg",
+    "note": "使用Wikimedia提供的1920像素版本；页面按容器适配显示。",
+    "original_title": "Kumano-hongû-taisha Shrine - Torii at Ôyunohara.jpg"
+  },
+  {
+    "file": "kumano-assets/nachi.jpg",
+    "title": "青岸渡寺三重塔与那智瀑布",
+    "author": "Tak1701d",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Three-storied_Pagoda_of_Seiganto-ji_and_Nachi_Falls_201911.jpg",
+    "note": "使用Wikimedia提供的1920像素版本；页面按容器适配显示。",
+    "original_title": "Three-storied Pagoda of Seiganto-ji and Nachi Falls 201911.jpg"
+  },
+  {
+    "file": "kumano-assets/daimonzaka.jpg",
+    "title": "大门坂入口",
+    "author": "AIR ISLAND",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Daimonzaka-e.jpg",
+    "note": "Wikimedia 1280像素版本，页面按容器适配。",
+    "original_title": "大门坂入口"
+  }
+]

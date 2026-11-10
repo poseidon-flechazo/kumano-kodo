@@ -1,0 +1,16 @@
+# Keep local files and private booking records out of this site.
+.DS_Store
+.env*
+*.log
+*.zip
+__pycache__/
+*.pyc
+/预约凭证/
+/资料来源/
+/维护脚本/
+/熊野古道_最终行程总表.json
+/行程住宿选择.json
+/网页发布配置.json
+*乘车票*
+*付款*
+*预约*
