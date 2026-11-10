@@ -1,0 +1,40 @@
+{
+  "tickets": [
+    {
+      "id": "outbound",
+      "label": "去程夜巴",
+      "passengers": 1,
+      "status": "已付款",
+      "line": "ホワイトビーチシャトル",
+      "departure_date": "2026-12-03",
+      "departure_stop": "池袋駅東口",
+      "departure_time": "20:40",
+      "arrival_date": "2026-12-04",
+      "arrival_stop": "田辺駅前",
+      "arrival_time": "07:30",
+      "service": "0001",
+      "coach": "01",
+      "seat": "6",
+      "fare_yen": 10980,
+      "source": "https://www.seibubus.co.jp/kousoku/line/line_whitebeachshuttle.html"
+    },
+    {
+      "id": "return",
+      "label": "返程夜巴",
+      "passengers": 1,
+      "status": "已付款",
+      "line": "南紀勝浦線",
+      "departure_date": "2026-12-08",
+      "departure_stop": "三交新宮駅前",
+      "departure_time": "20:03",
+      "arrival_date": "2026-12-09",
+      "arrival_stop": "池袋駅東口",
+      "arrival_time": "06:20",
+      "service": "0102",
+      "coach": "01",
+      "seat": "A7",
+      "fare_yen": 10000,
+      "source": "https://www.sanco.co.jp/highway/nankitokyo/time/"
+    }
+  ]
+}

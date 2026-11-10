@@ -37,6 +37,16 @@ function updateProgress(){
  document.querySelectorAll('[data-progress-bar]').forEach(n=>{const day=n.dataset.progressBar;const max=checks.filter(c=>c.dataset.day===day).length;n.style.width=((byDay[day]||0)/Math.max(1,max)*100)+'%'});
 }
 checks.forEach(c=>{c.checked=saved[c.dataset.number]===true;c.addEventListener('change',()=>{saved[c.dataset.number]=c.checked;try{localStorage.setItem(key,JSON.stringify(saved))}catch(e){}updateProgress()})});updateProgress();
+const packingChecks=[...document.querySelectorAll('[data-packing-id]')];
+const packingKey='kumano-20261204-packing-v1';let packed={};
+try{const value=JSON.parse(localStorage.getItem(packingKey)||'{}');if(value&&typeof value==='object'&&!Array.isArray(value))packed=value}catch(e){}
+function updatePackingProgress(){
+ let total=0;const categories={};
+ packingChecks.forEach(c=>{if(c.checked){total++;categories[c.dataset.packingCategory]=(categories[c.dataset.packingCategory]||0)+1}c.closest('.packing-item').classList.toggle('is-packed',c.checked)});
+ document.querySelectorAll('[data-packing-total]').forEach(n=>n.textContent=total+' / '+packingChecks.length);
+ document.querySelectorAll('[data-packing-category-progress]').forEach(n=>{const category=n.dataset.packingCategoryProgress;const max=packingChecks.filter(c=>c.dataset.packingCategory===category).length;n.textContent=(categories[category]||0)+' / '+max});
+}
+packingChecks.forEach(c=>{c.checked=packed[c.dataset.packingId]===true;c.addEventListener('change',()=>{packed[c.dataset.packingId]=c.checked;try{localStorage.setItem(packingKey,JSON.stringify(packed))}catch(e){}updatePackingProgress()})});updatePackingProgress();
 const dialog=document.getElementById('image-viewer');let trigger;let zoom=1;
 function setZoom(next){
  const canvas=dialog.querySelector('.lightbox-canvas');const image=dialog.querySelector('img');const old=zoom;
