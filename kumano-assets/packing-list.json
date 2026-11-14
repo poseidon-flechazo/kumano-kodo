@@ -5,74 +5,74 @@
       "id": "clothing",
       "title": "穿着与保暖",
       "items": [
-        {"id": "shell", "name": "冲锋衣", "quantity": "1件", "carry": "每日随身"},
-        {"id": "hiking-pants", "name": "徒步裤", "quantity": "1条穿着，备用按需", "carry": "行进穿着"},
-        {"id": "hiking-shoes", "name": "徒步鞋", "quantity": "1双", "carry": "行进穿着"},
-        {"id": "down-jacket", "name": "羽绒服", "quantity": "1件", "carry": "每日随身"},
-        {"id": "thermal-pants", "name": "保暖裤", "quantity": "1条", "carry": "换洗住宿"},
-        {"id": "merino-shirt", "name": "美利奴羊毛速干衣", "quantity": "约2件", "carry": "穿着与换洗"},
-        {"id": "merino-socks", "name": "美利奴羊毛袜子", "quantity": "约3双", "carry": "穿着与换洗"},
-        {"id": "underwear", "name": "一次性内裤", "quantity": "按含夜巴的实际天数", "carry": "换洗住宿"},
-        {"id": "face-cover", "name": "面罩／脖套", "quantity": "1件", "carry": "每日随身"},
-        {"id": "gloves", "name": "手套", "quantity": "1副", "carry": "每日随身"},
-        {"id": "warm-hat", "name": "棉帽／保暖帽", "quantity": "1顶", "carry": "每日随身"},
-        {"id": "fleece", "name": "薄抓绒／保暖中层", "quantity": "按需1件", "carry": "可选"}
+        {"id": "shell", "name": "冲锋衣"},
+        {"id": "hiking-pants", "name": "徒步裤"},
+        {"id": "hiking-shoes", "name": "徒步鞋"},
+        {"id": "down-jacket", "name": "羽绒服"},
+        {"id": "thermal-pants", "name": "保暖裤"},
+        {"id": "merino-shirt", "name": "美利奴羊毛速干衣"},
+        {"id": "merino-socks", "name": "美利奴羊毛袜子"},
+        {"id": "underwear", "name": "一次性内裤"},
+        {"id": "face-cover", "name": "面罩／脖套"},
+        {"id": "gloves", "name": "手套"},
+        {"id": "warm-hat", "name": "棉帽／保暖帽"},
+        {"id": "fleece", "name": "薄抓绒／保暖中层"}
       ]
     },
     {
       "id": "hiking",
-      "title": "徒步装备与防雨",
+      "title": "徒步装备",
       "items": [
-        {"id": "trekking-poles", "name": "登山杖", "quantity": "按习惯1对", "carry": "每日随身"},
-        {"id": "backpack", "name": "背包", "quantity": "1个", "carry": "每日随身"},
-        {"id": "water-bladder", "name": "水袋", "quantity": "1个", "carry": "每日随身"},
-        {"id": "rain-jacket", "name": "雨衣", "quantity": "1件或由防水外壳替代", "carry": "每日随身"},
-        {"id": "rain-pants", "name": "雨裤", "quantity": "1条", "carry": "每日随身"},
-        {"id": "pack-cover", "name": "背包防雨罩", "quantity": "1个", "carry": "每日随身"},
-        {"id": "dry-bags", "name": "背包内防水袋／密封袋", "quantity": "数个", "carry": "每日随身"}
+        {"id": "trekking-poles", "name": "登山杖"},
+        {"id": "backpack", "name": "背包"},
+        {"id": "water-bladder", "name": "水袋"},
+        {"id": "rain-jacket", "name": "雨衣"},
+        {"id": "rain-pants", "name": "雨裤"},
+        {"id": "pack-cover", "name": "背包防雨罩"},
+        {"id": "dry-bags", "name": "背包内防水袋／密封袋"},
+        {"id": "headlamp", "name": "头灯"},
+        {"id": "headlamp-backup", "name": "头灯备用电池／充电线"},
+        {"id": "whistle", "name": "求救哨"},
+        {"id": "emergency-blanket", "name": "轻量应急保温毯"},
+        {"id": "first-aid", "name": "急救包"},
+        {"id": "blister-care", "name": "防磨贴／水泡贴"},
+        {"id": "personal-medicine", "name": "个人常用药"}
       ]
     },
     {
       "id": "navigation",
-      "title": "照明、通讯与导航",
+      "title": "通讯与导航",
       "items": [
-        {"id": "phone", "name": "手机及防水保护", "quantity": "1套", "carry": "每日随身"},
-        {"id": "headlamp", "name": "头灯", "quantity": "1个", "carry": "每日随身"},
-        {"id": "headlamp-backup", "name": "头灯备用电池／充电线", "quantity": "1套", "carry": "每日随身"},
-        {"id": "power-bank", "name": "充电宝", "quantity": "1个，容量按设备需求", "carry": "每日随身"},
-        {"id": "charging-kit", "name": "充电器与手机充电线", "quantity": "1套", "carry": "每日随身"},
-        {"id": "offline-maps", "name": "离线地图与纸质路线图", "quantity": "当天路段各1份", "carry": "每日随身"},
-        {"id": "whistle", "name": "求救哨", "quantity": "1个", "carry": "每日随身"},
-        {"id": "emergency-blanket", "name": "轻量应急保温毯", "quantity": "1份", "carry": "每日随身"}
+        {"id": "phone", "name": "手机及防水保护"},
+        {"id": "power-bank", "name": "充电宝"},
+        {"id": "charging-kit", "name": "充电器与手机充电线"},
+        {"id": "offline-maps", "name": "离线地图与纸质路线图"}
       ]
     },
     {
       "id": "food",
       "title": "食物与饮水",
       "items": [
-        {"id": "water", "name": "饮用水与备用水瓶", "quantity": "按当天路程准备并留余量", "carry": "每日补给"},
-        {"id": "sports-drink", "name": "脉动／运动饮料／电解质粉", "quantity": "按需择一", "carry": "每日补给"},
-        {"id": "glucose", "name": "葡萄糖饮品／葡萄糖片／能量胶", "quantity": "适量小包装", "carry": "每日补给"},
-        {"id": "main-meals", "name": "饭团／面包／便当", "quantity": "当天未含餐的正餐", "carry": "每日补给"},
-        {"id": "trail-snacks", "name": "能量棒、坚果、果干或巧克力", "quantity": "按当天时长分装", "carry": "每日补给"},
-        {"id": "reserve-food", "name": "备用高能量食品", "quantity": "1份独立备用", "carry": "每日随身"},
-        {"id": "thermos", "name": "保温杯与热饮", "quantity": "按需1个", "carry": "可选"},
-        {"id": "food-kit", "name": "便携餐具与食品密封袋", "quantity": "1小套", "carry": "每日随身"}
+        {"id": "water", "name": "饮用水与备用水瓶"},
+        {"id": "sports-drink", "name": "脉动／运动饮料／电解质粉"},
+        {"id": "glucose", "name": "葡萄糖饮品／葡萄糖片／能量胶"},
+        {"id": "main-meals", "name": "饭团／面包／便当"},
+        {"id": "trail-snacks", "name": "能量棒、坚果、果干或巧克力"},
+        {"id": "reserve-food", "name": "备用高能量食品"},
+        {"id": "thermos", "name": "保温杯与热饮"},
+        {"id": "food-kit", "name": "便携餐具与食品密封袋"}
       ]
     },
     {
       "id": "personal-care",
-      "title": "急救、洗漱与住宿",
+      "title": "洗漱与住宿",
       "items": [
-        {"id": "first-aid", "name": "急救包", "quantity": "1小包", "carry": "每日随身"},
-        {"id": "blister-care", "name": "防磨贴／水泡贴", "quantity": "少量备用", "carry": "每日随身"},
-        {"id": "personal-medicine", "name": "个人常用药", "quantity": "按本人日常需要", "carry": "按需"},
-        {"id": "toiletries", "name": "牙刷牙膏与个人卫生用品", "quantity": "旅行小包装", "carry": "换洗住宿"},
-        {"id": "towel", "name": "快干毛巾", "quantity": "1条", "carry": "换洗住宿"},
-        {"id": "tissues", "name": "纸巾、湿巾与手部清洁用品", "quantity": "少量分装", "carry": "每日随身"},
-        {"id": "trash-bags", "name": "垃圾袋与脏衣袋", "quantity": "数个", "carry": "每日随身"},
-        {"id": "sleep-kit", "name": "耳塞与眼罩", "quantity": "1套", "carry": "夜巴住宿"},
-        {"id": "sun-care", "name": "防晒霜与润唇膏", "quantity": "小包装", "carry": "按需"}
+        {"id": "toiletries", "name": "牙刷牙膏与个人卫生用品"},
+        {"id": "towel", "name": "快干毛巾"},
+        {"id": "tissues", "name": "纸巾、湿巾与手部清洁用品"},
+        {"id": "trash-bags", "name": "垃圾袋与脏衣袋"},
+        {"id": "sleep-kit", "name": "耳塞与眼罩"},
+        {"id": "sun-care", "name": "防晒霜"}
       ]
     }
   ]
