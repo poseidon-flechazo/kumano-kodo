@@ -1,101 +1,79 @@
 {
   "title": "需要带的东西",
-  "intro": "按12月中边路、五天四晚住宿徒步及两程夜巴整理。穿着、随身与住宿用品分开放，饮水和食物按天补给。",
-  "notes": [
-    "数量是打包参考，可按洗衣和行李转运安排调整；可选用品不必全部携带。",
-    "有合适的防水冲锋衣时可替代雨衣，仍需考虑雨裤和背包内防水；羽绒服与备用干衣单独装袋。",
-    "Day2计划05:30出发、约24.5公里，头灯、备用电源、饮水和当天路餐应放在随手可取处。",
-    "12/4住宿不含餐，须自备当晚晚饭、12/5早餐和路餐；12/7胜浦晚饭及12/8早餐也需自行安排。",
-    "脉动、运动饮料或电解质粉可按需择一；带纯水和固体主食，不必一次背齐五天饮料。"
-  ],
   "categories": [
     {
       "id": "clothing",
       "title": "穿着与保暖",
       "items": [
-        {"id": "shell", "name": "冲锋衣", "quantity": "1件", "carry": "每日随身", "note": "作为防风防雨外层，确认帽兜及防水状态。"},
-        {"id": "hiking-pants", "name": "徒步裤", "quantity": "1条穿着，备用按需", "carry": "行进穿着", "note": "选择活动方便、易干的款式。"},
-        {"id": "hiking-shoes", "name": "徒步鞋", "quantity": "1双", "carry": "行进穿着", "note": "穿已磨合的鞋，出发前检查鞋底和鞋带。"},
-        {"id": "down-jacket", "name": "羽绒服", "quantity": "1件", "carry": "每日随身", "note": "休息、候车及住宿时保暖，单独防水收纳。"},
-        {"id": "thermal-pants", "name": "保暖裤", "quantity": "1条", "carry": "换洗住宿", "note": "用于休息或睡觉，行进时按冷暖调整。"},
-        {"id": "merino-shirt", "name": "美利奴羊毛速干衣", "quantity": "约2件", "carry": "穿着与换洗", "note": "行进与睡觉的干衣分开安排。"},
-        {"id": "merino-socks", "name": "美利奴羊毛袜子", "quantity": "约3双", "carry": "穿着与换洗", "note": "至少留1双干袜，洗衣后确认能否晾干。"},
-        {"id": "underwear", "name": "一次性内裤", "quantity": "按含夜巴的实际天数", "carry": "换洗住宿", "note": "按换洗习惯准备，穿过的用品带走处理。"},
-        {"id": "face-cover", "name": "面罩／脖套", "quantity": "1件", "carry": "每日随身", "note": "选透气、易干的款式。"},
-        {"id": "gloves", "name": "手套", "quantity": "1副", "carry": "每日随身", "note": "以能握稳登山杖、便于操作手机为宜。"},
-        {"id": "warm-hat", "name": "棉帽／保暖帽", "quantity": "1顶", "carry": "每日随身", "note": "休息与清晨可用，保持干燥。"},
-        {"id": "fleece", "name": "薄抓绒／保暖中层", "quantity": "按需1件", "carry": "可选", "note": "结合已有衣物搭配，避免重复带厚重保暖层。"}
+        {"id": "shell", "name": "冲锋衣"},
+        {"id": "hiking-pants", "name": "徒步裤"},
+        {"id": "hiking-shoes", "name": "徒步鞋"},
+        {"id": "down-jacket", "name": "羽绒服"},
+        {"id": "thermal-pants", "name": "保暖裤"},
+        {"id": "merino-shirt", "name": "美利奴羊毛速干衣"},
+        {"id": "merino-socks", "name": "美利奴羊毛袜子"},
+        {"id": "underwear", "name": "一次性内裤"},
+        {"id": "face-cover", "name": "面罩／脖套"},
+        {"id": "gloves", "name": "手套"},
+        {"id": "warm-hat", "name": "棉帽／保暖帽"},
+        {"id": "fleece", "name": "薄抓绒／保暖中层"}
       ]
     },
     {
       "id": "hiking",
-      "title": "徒步装备与防雨",
+      "title": "徒步装备",
       "items": [
-        {"id": "trekking-poles", "name": "登山杖", "quantity": "按习惯1对", "carry": "每日随身", "note": "出发前调好长度，带杖尖保护套。"},
-        {"id": "backpack", "name": "背包", "quantity": "1个", "carry": "每日随身", "note": "提前装包试背；头灯、雨具和路餐放易取处。"},
-        {"id": "water-bladder", "name": "水袋", "quantity": "1个", "carry": "每日随身", "note": "出发前试漏、清洗；当天装水量按路段补水条件调整。"},
-        {"id": "rain-jacket", "name": "雨衣", "quantity": "1件或由防水外壳替代", "carry": "每日随身", "note": "与冲锋衣按功能择一搭配，保证双手能使用登山杖。"},
-        {"id": "rain-pants", "name": "雨裤", "quantity": "1条", "carry": "每日随身", "note": "与上身雨具配套，确认能套在徒步裤外。"},
-        {"id": "pack-cover", "name": "背包防雨罩", "quantity": "1个", "carry": "每日随身", "note": "尺寸与背包匹配。"},
-        {"id": "dry-bags", "name": "背包内防水袋／密封袋", "quantity": "数个", "carry": "每日随身", "note": "分装干衣、羽绒服、电子设备及押印冊。"}
+        {"id": "trekking-poles", "name": "登山杖"},
+        {"id": "backpack", "name": "背包"},
+        {"id": "water-bladder", "name": "水袋"},
+        {"id": "rain-jacket", "name": "雨衣"},
+        {"id": "rain-pants", "name": "雨裤"},
+        {"id": "pack-cover", "name": "背包防雨罩"},
+        {"id": "dry-bags", "name": "背包内防水袋／密封袋"},
+        {"id": "headlamp", "name": "头灯"},
+        {"id": "headlamp-backup", "name": "头灯备用电池／充电线"},
+        {"id": "whistle", "name": "求救哨"},
+        {"id": "emergency-blanket", "name": "轻量应急保温毯"},
+        {"id": "first-aid", "name": "急救包"},
+        {"id": "blister-care", "name": "防磨贴／水泡贴"},
+        {"id": "personal-medicine", "name": "个人常用药"}
       ]
     },
     {
       "id": "navigation",
-      "title": "照明、通讯与导航",
+      "title": "通讯与导航",
       "items": [
-        {"id": "phone", "name": "手机及防水保护", "quantity": "1套", "carry": "每日随身", "note": "出发前下载地图、公交表、住宿地址和行程。"},
-        {"id": "headlamp", "name": "头灯", "quantity": "1个", "carry": "每日随身", "note": "Day2清晨起步前即需使用，提前试亮和调整头带。"},
-        {"id": "headlamp-backup", "name": "头灯备用电池／充电线", "quantity": "1套", "carry": "每日随身", "note": "按头灯型号准备，并与其他电池分装。"},
-        {"id": "power-bank", "name": "充电宝", "quantity": "1个，容量按设备需求", "carry": "每日随身", "note": "检查实际可用电量，留出导航与紧急联络电量。"},
-        {"id": "charging-kit", "name": "充电器与手机充电线", "quantity": "1套", "carry": "每日随身", "note": "确认手机、头灯与充电宝所需接口。"},
-        {"id": "offline-maps", "name": "离线地图与纸质路线图", "quantity": "当天路段各1份", "carry": "每日随身", "note": "标出登口、住宿、公交站和途中可退出的位置。"},
-        {"id": "whistle", "name": "求救哨", "quantity": "1个", "carry": "每日随身", "note": "可使用背包已有的哨扣，放在容易拿到的位置。"},
-        {"id": "emergency-blanket", "name": "轻量应急保温毯", "quantity": "1份", "carry": "每日随身", "note": "保持包装完整，作为意外停留时的备用用品。"}
+        {"id": "phone", "name": "手机及防水保护"},
+        {"id": "power-bank", "name": "充电宝"},
+        {"id": "charging-kit", "name": "充电器与手机充电线"},
+        {"id": "offline-maps", "name": "离线地图与纸质路线图"}
       ]
     },
     {
       "id": "food",
       "title": "食物与饮水",
       "items": [
-        {"id": "water", "name": "饮用水与备用水瓶", "quantity": "按当天路程准备并留余量", "carry": "每日补给", "note": "提前确认可用补水点；小水瓶也便于向水袋补水。"},
-        {"id": "sports-drink", "name": "脉动／运动饮料／电解质粉", "quantity": "按需择一", "carry": "每日补给", "note": "可用小包装粉剂减轻携带多瓶饮料的重量。"},
-        {"id": "glucose", "name": "葡萄糖饮品／葡萄糖片／能量胶", "quantity": "适量小包装", "carry": "每日补给", "note": "作为方便取用的补充，同时准备固体主食。"},
-        {"id": "main-meals", "name": "饭团／面包／便当", "quantity": "当天未含餐的正餐", "carry": "每日补给", "note": "尤其提前备好12/5早饭与路餐，核对其他住宿的供餐安排。"},
-        {"id": "trail-snacks", "name": "能量棒、坚果、果干或巧克力", "quantity": "按当天时长分装", "carry": "每日补给", "note": "选自己吃惯、容易拆开的小包装。"},
-        {"id": "reserve-food", "name": "备用高能量食品", "quantity": "1份独立备用", "carry": "每日随身", "note": "与当天计划吃掉的路餐分开放。"},
-        {"id": "thermos", "name": "保温杯与热饮", "quantity": "按需1个", "carry": "可选", "note": "结合天气、饮水习惯和背包重量决定。"},
-        {"id": "food-kit", "name": "便携餐具与食品密封袋", "quantity": "1小套", "carry": "每日随身", "note": "便于分装食物、收好吃剩的食品。"}
-      ]
-    },
-    {
-      "id": "documents",
-      "title": "证件、盖章与交通",
-      "items": [
-        {"id": "stamp-book", "name": "熊野古道押印冊", "quantity": "1本", "carry": "每日随身", "note": "配防水袋和笔，每天核对当日印点。"},
-        {"id": "identification", "name": "身份证明与医保凭证", "quantity": "各自所需证件", "carry": "每日随身", "note": "与紧急联系人信息一起妥善收好。"},
-        {"id": "cash", "name": "现金、公交零钱与交通IC卡", "quantity": "按个人预算", "carry": "每日随身", "note": "准备千元纸钞和硬币，用于公交、补给、洗衣及投币设备。"},
-        {"id": "tickets", "name": "乘车票、住宿确认与联络信息", "quantity": "手机离线保存，必要时纸备份", "carry": "每日随身", "note": "保存官方乘车票，并确认需要动态展示还是可用截图。"}
+        {"id": "water", "name": "饮用水与备用水瓶"},
+        {"id": "sports-drink", "name": "脉动／运动饮料／电解质粉"},
+        {"id": "glucose", "name": "葡萄糖饮品／葡萄糖片／能量胶"},
+        {"id": "main-meals", "name": "饭团／面包／便当"},
+        {"id": "trail-snacks", "name": "能量棒、坚果、果干或巧克力"},
+        {"id": "reserve-food", "name": "备用高能量食品"},
+        {"id": "thermos", "name": "保温杯与热饮"},
+        {"id": "food-kit", "name": "便携餐具与食品密封袋"}
       ]
     },
     {
       "id": "personal-care",
-      "title": "急救、洗漱与住宿",
+      "title": "洗漱与住宿",
       "items": [
-        {"id": "first-aid", "name": "急救包", "quantity": "1小包", "carry": "每日随身", "note": "创可贴、纱布、医用胶带及小剪刀等基础用品。"},
-        {"id": "blister-care", "name": "防磨贴／水泡贴", "quantity": "少量备用", "carry": "每日随身", "note": "与备用袜一起放在易取处，按产品说明使用。"},
-        {"id": "personal-medicine", "name": "个人常用药", "quantity": "按本人日常需要", "carry": "按需", "note": "保留药品说明和原包装。"},
-        {"id": "toiletries", "name": "牙刷牙膏与个人卫生用品", "quantity": "旅行小包装", "carry": "换洗住宿", "note": "按住宿提供情况准备，洗衣用品少量分装。"},
-        {"id": "towel", "name": "快干毛巾", "quantity": "1条", "carry": "换洗住宿", "note": "按个人洗漱习惯选择大小。"},
-        {"id": "tissues", "name": "纸巾、湿巾与手部清洁用品", "quantity": "少量分装", "carry": "每日随身", "note": "用过的纸巾湿巾带走。"},
-        {"id": "trash-bags", "name": "垃圾袋与脏衣袋", "quantity": "数个", "carry": "每日随身", "note": "垃圾、湿衣与干净装备分开收纳。"},
-        {"id": "sleep-kit", "name": "耳塞与眼罩", "quantity": "1套", "carry": "夜巴住宿", "note": "两程夜巴都可使用，放在随身小包。"},
-        {"id": "sun-care", "name": "防晒霜与润唇膏", "quantity": "小包装", "carry": "按需", "note": "依个人习惯和当天日照使用。"}
+        {"id": "toiletries", "name": "牙刷牙膏与个人卫生用品"},
+        {"id": "towel", "name": "快干毛巾"},
+        {"id": "tissues", "name": "纸巾、湿巾与手部清洁用品"},
+        {"id": "trash-bags", "name": "垃圾袋与脏衣袋"},
+        {"id": "sleep-kit", "name": "耳塞与眼罩"},
+        {"id": "sun-care", "name": "防晒霜"}
       ]
     }
-  ],
-  "sources": [
-    {"title": "田边市熊野观光局：徒步须知与安全指南", "url": "https://www.tb-kumano.jp/cn/kumano-kodo/tips/"},
-    {"title": "田边市熊野观光局：季节、服装与装备指南", "url": "https://www.tb-kumano.jp/kumano-kodo/tenki/"}
   ]
 }
